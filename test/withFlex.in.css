@@ -1,0 +1,6 @@
+body {display: block;}
+main {display: inline;}
+article {display: flex;}
+footer {display: inline-block;}
+h1 {display: inline-flex;}
+h2 {display: flex;min-width: 40px;}
