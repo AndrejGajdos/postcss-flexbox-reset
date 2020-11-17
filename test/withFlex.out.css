@@ -1,6 +1,8 @@
 body {display: block;}
 main {display: inline;}
-article {display: flex;min-width: 0;}
+article {display: flex;}
+article > * {min-width: 0;}
 footer {display: inline-block;}
-h1 {display: inline-flex;}
-h2 {display: flex;min-width: 40px;}
+span {display: inline-flex;}
+span {display: flex;min-width: 40px;}
+span > * {min-width: 0;}
