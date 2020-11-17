@@ -18,11 +18,6 @@
 .foo {
   display: flex;
 }
-
-.foo-2 {
-  display: flex;
-  min-width: 20px;
-}
 ```
 
 ```css
@@ -32,15 +27,6 @@
 }
 
 .foo > * {
-  min-width: 0;
-}
-
-.foo-2 {
-  display: flex;
-  min-width: 20px;
-}
-
-.foo-2 > * {
   min-width: 0;
 }
 ```
