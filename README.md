@@ -41,7 +41,6 @@
 }
 
 .foo-2 > * {
-  display: flex;
   min-width: 0;
 }
 ```
