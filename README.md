@@ -11,6 +11,10 @@
 
 [PostCSS] plugin for resetting flexbox. This plugin adds rule `min-width:0` to all direct descendants of element `display: flex`.
 
+Let’s say you want to truncate labels in flexbox layout. Without resetting flex items, it [doesn't work](https://codepen.io/andrej_gajdos/pen/YzWozKw). When you apply `min-width:0` to flex items, [layout works](https://codepen.io/andrej_gajdos/pen/wvWLvwq) as expected.
+
+This was just one example, but you will come across similar funky issues in your flexbox layouts in different browsers. You can read my whole story [here](https://andrejgajdos.com/css-reset-flexbox-grid-responsive-layout/).
+
 [postcss]: https://github.com/postcss/postcss
 
 ```css
